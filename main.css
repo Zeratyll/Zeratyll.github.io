@@ -97,8 +97,14 @@ h2 {
         grid-template-rows: repeat(1);
     }
     .login-box {
-        margin: 1.5em;
         margin-inline: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-radius: 0;
+    }
+    section {
+        height: 160vh;
     }
 }
 
@@ -114,7 +120,7 @@ h2 {
         height: 100%;
     }
     section {
-        height: 150vh;
+        height: 160vh;
     }
 }
 
