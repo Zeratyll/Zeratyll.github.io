@@ -124,7 +124,7 @@ h2 {
     }
 }
 
-@media  (max-width: 600px) {
+@media  (max-width: 375px) {
     .containerbox {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2);
