@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Libre Baskerville&display=swap');
+
+.bgvideo {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgvideo video {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.effect {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(4, 6, 53, 0.404);
+}
+
+.video-text {
+    font-family: Libre Baskerville, serif;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+}
+
+.playlist {
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playlist video {
+    height: 93vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.effection {
+    height: 93vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(4, 6, 53, 0.404);
+}
+.Indentation {
+    padding-top: 16px;
+}
