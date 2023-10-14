@@ -90,6 +90,7 @@ h2 {
     padding-top: 16px;
 }
 
+
 @media (max-width: 800px) {
     .containerbox {
         grid-template-columns: repeat(1, 1fr);
@@ -104,15 +105,33 @@ h2 {
 @media (max-width: 600px) {
     .containerbox {
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1);
+        grid-template-rows: repeat(2);
     }
     .login-box {
         margin: 1.5em;
         margin-inline: 0;
+        width: 100%;
+        height: 100%;
     }
     section {
         height: 150vh;
     }
 }
 
+@media  (max-width: 600px) {
+    .containerbox {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2);
+    }
+    .login-box {
+        margin-inline: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-radius: 0;
+    }
+    section {
+        height: 160vh;
+    }
+}
 
