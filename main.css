@@ -97,27 +97,40 @@ h2 {
         max-height: 100%;
 }
 section {
-    height: 200vh;
+    height: 220vh;
     margin-inline: 0;
 }
 }
 
-
-
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .containerbox {
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1);
+        grid-template-rows: repeat(2);
     }
     .login-box {
         margin-inline: 0;
         width: 100%;
         height: 100%;
-        border: none;
-        border-radius: 0;
+        border-radius: 1;
     }
     section {
-        height: 180vh;
+        height: 190vh;
+    }
+}
+
+@media (max-width: 800px) {
+    .containerbox {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2);
+    }
+    .login-box {
+        margin-inline: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 1;
+    }
+    section {
+        height: 190vh;
     }
 }
 
@@ -133,7 +146,7 @@ section {
         height: 100%;
     }
     section {
-        height: 190vh;
+        height: 290vh;
     }
 }
 
@@ -150,7 +163,7 @@ section {
         border-radius: 0;
     }
     section {
-        height: 190vh;
+        height: 360vh;
     }
 }
 
