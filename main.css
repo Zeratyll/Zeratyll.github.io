@@ -145,7 +145,7 @@ section {
         width: 100%;
         height: 100%;
     }
-    section {
+    section {   
         height: 290vh;
     }
 }
@@ -161,9 +161,10 @@ section {
         height: 100%;
         border: none;
         border-radius: 0;
+        backdrop-filter: none;
     }
     section {
-        height: 260vh;
+        height: 230vh;
     }
 }
 
