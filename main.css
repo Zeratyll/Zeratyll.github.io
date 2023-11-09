@@ -1,64 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-
-body{
-    font-family: Roboto, serif;
-    background: linear-gradient(90deg, #010158 0%, #000000 100%);
-}
-
-.navbar-expand-lg {
-    background: linear-gradient(270deg, #010158 0%, #000000 100%);
-}
-
-p {
-    color: rgb(255, 255, 255);
-    filter: drop-shadow(5px 5px 14px rgb(255, 255, 255));
-    font-size: 19px
-}
-
-.nav-link {
-    color: rgb(255, 255, 255);
-}
-.navbar-nav .nav-link.active {
-    color: rgba(148, 149, 149, 0.794)
-}
-
-.navbar-brand img {
-    width: 45px;
-    margin-right: 3px;
-    margin-left: 3px;
-}
-
-footer,
-.btn-outline-primary {
-    background: linear-gradient(270deg, #010158 0%, #000000 100%);
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 107vh;
-    background: url('bg.jpg') no-repeat;
-    background-size: cover;
-    background-position: center;
-    animation: animateBg 5s linear infinite;
-}
-
-@keyframes animateBg {
-    100% {
-        filter: hue-rotate(360deg);
-    }
-}
-
 .login-box {
     justify-content: center;
     position: relative;
@@ -67,7 +6,6 @@ section {
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .5);
     border-radius: 20px;
-    display: flex;
     align-items: center;
     backdrop-filter: blur(15px);
     margin: 90px;
@@ -80,91 +18,45 @@ section {
     grid-template-rows: repeat(1);
 }
 
+
 h2 {
     font-size: 2em;
     color: #fff;
     text-align: center;
 }
 
-.Indentation {
-    padding-top: 16px;
-}
-@media (max-width: 1275px) {
-        .containerbox {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(2);
-        max-width: 100%;
-        max-height: 100%;
-}
 section {
-    height: 220vh;
-    margin-inline: 0;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 113vh;
+    background: url('bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: animateBg 5s linear infinite;
 }
 
-@media (max-width: 1000px) {
-    .containerbox {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(2);
-    }
-    .login-box {
-        margin-inline: 0;
-        width: 100%;
-        height: 100%;
-        border-radius: 1;
-    }
-    section {
-        height: 190vh;
+@keyframes animateBg {
+    100% {
+        filter: hue-rotate(360deg);
     }
 }
 
-@media (max-width: 800px) {
-    .containerbox {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(2);
-    }
-    .login-box {
-        margin-inline: 0;
-        width: 100%;
-        height: 100%;
-        border-radius: 1;
-    }
-    section {
-        height: 190vh;
-    }
+.containerbox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1);
 }
 
-@media (max-width: 600px) {
-    .containerbox {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(2);
-    }
-    .login-box {
-        margin: 1.5em;
-        margin-inline: 0;
-        width: 100%;
-        height: 100%;
-    }
-    section {   
-        height: 260vh;
-    }
+.card {
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 23px;
+    margin: 0px;
 }
 
-@media  (max-width: 375px) {
-    .containerbox {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(2);
-    }
-    .login-box {
-        margin-inline: 0;
-        width: 100%;
-        height: 100%;
-        border: none;
-        border-radius: 0;
-        backdrop-filter: none;
-    }
-    section {
-        height: 230vh;
-    }
-}
+
 
