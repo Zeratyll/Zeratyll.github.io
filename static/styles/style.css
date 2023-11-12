@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: Roboto, serif;
     background: linear-gradient(90deg, #010158 0%, #000000 100%);
@@ -165,4 +170,16 @@ footer,
     margin: 8px;
     padding-bottom: 8px;
 }
+
+.Border {
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    margin-top: 90px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    background: linear-gradient(270deg, #010158 0%, #000000 100%);
+}
+
+
 
