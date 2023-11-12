@@ -118,25 +118,24 @@ footer,
     margin: 1.5em;
 }
 
-.conteiner {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(1);
-}
 
 .block>img {
     width: 100%;
 }
 
 @media (max-width: 800px) {
-    .conteiner {
+    .card {
+        height: 100%;
+        width: 100%;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2);
     }
 }
 
 @media (max-width: 600px) {
-    .conteiner {
+    .card {
+        height: 100%;
+        width: 100%;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(4);
     }
