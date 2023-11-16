@@ -16,7 +16,6 @@ body{
 
 p {
     color: rgb(255, 255, 255);
-    filter: drop-shadow(5px 5px 14px rgb(255, 255, 255));
     font-size: 19px
 }
 
@@ -154,13 +153,6 @@ footer,
     font-size: 30px;
     padding-bottom: 16px;
     text-align: center;
-}
-
-h1 {
-    font-size: 80px;
-    margin-top: 26vh;
-    padding-left: 12vh;
-    color: white;
 }
 
 .card-title {
