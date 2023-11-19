@@ -181,6 +181,35 @@ footer,
     background: linear-gradient(270deg, #010158 0%, #000000 100%);
 }
 
+.Generation {
+    padding-top: 20vh;
+    font-size: 70px;
+    padding-bottom: 60px;
+    color: white;
+    margin-left: 20vh;
+}
+
+.indent {
+    padding-bottom: 40px;
+    font-size: 30px;
+    margin-left: 20vh;
+}
+
+@media (max-width: 425px) {
+    .Generation {
+        padding-top: 17vh;
+        font-size: 40px;
+        padding-bottom: 60px;
+        color: white;
+        margin-left: 0vh;
+    }
+    .indent {
+        padding-bottom: 40px;
+        font-size: 30px;
+        margin-left: 0vh;
+    }
+}
+
 
 
 
