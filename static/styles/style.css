@@ -115,6 +115,8 @@ footer,
 .logo {
     filter: drop-shadow(5px 5px 14px rgb(255, 255, 255));
     text-align: center;
+    position: relative;
+    bottom: 170px;
     font-size: 46px
 }
 
