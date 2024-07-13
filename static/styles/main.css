@@ -7,7 +7,7 @@
 
 body{
     font-family: Roboto, serif;
-    background: linear-gradient(90deg, #010158 0%, #000000 100%);
+    background: linear-gradient(90deg, #000066 0%, #000000 100%);
 }
 
 .navbar-expand-lg {
@@ -15,8 +15,8 @@ body{
 }
 
 p {
-    color: rgb(255, 255, 255);
-    filter: drop-shadow(5px 5px 14px rgb(255, 255, 255));
+    color: #557fff; 
+    filter: drop-shadow(3px 3px 3px #6355ff);
     font-size: 19px
 }
 
@@ -114,7 +114,8 @@ footer,
 }
 
 .logo {
-    filter: drop-shadow(5px 5px 14px rgb(255, 255, 255));
+    filter: drop-shadow(3px 3px 3px #6355ff);
+    color: #557fff; 
     text-align: center;
     font-size: 46px
 }
@@ -162,7 +163,8 @@ footer,
     font-size: 59px;
     margin-top: 27vh;
     padding-left: 8vh;
-    color: white;
+    color: #557fff; 
+filter: drop-shadow(3px 3px 3px #6355ff);
 }
 
 .card-text {

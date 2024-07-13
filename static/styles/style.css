@@ -15,8 +15,9 @@ body{
 }
 
 p {
-    color: rgb(255, 255, 255);
-    font-size: 19px
+    color: #557fff;
+    font-size: 19px;
+    filter: drop-shadow(3px 3px 3px #6355ff);
 }
 
 .nav-link {
@@ -43,13 +44,14 @@ p {
 }
 
 .card {
-    background: linear-gradient(270deg, #010158 0%, #000000 100%);
+    background: linear-gradient(130deg, #010158 0%, #000000 100%);
     color: rgb(255, 255, 255);
 }
 
 .card a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #557fff;
+    filter: drop-shadow(3px 3px 3px #6355ff);
 }
 
 a {
@@ -113,7 +115,7 @@ footer,
 }
 
 .logo {
-    filter: drop-shadow(5px 5px 14px rgb(255, 255, 255));
+    filter: drop-shadow(3px 3px 3px #6355ff);
     text-align: center;
     position: relative;
     bottom: 170px;
@@ -159,11 +161,14 @@ footer,
 
 .card-title {
     font-size: 30px;
-    color: white;
+    color: #557fff;
+    filter: drop-shadow(3px 3px 3px #6355ff);
 }
 
 .card-text {
-    font-size: 20px
+    filter: drop-shadow(3px 3px 3px #6355ff);
+    font-size: 20px;
+    color: #557fff;
 }
 
 .basic {
@@ -187,14 +192,17 @@ footer,
     padding-top: 20vh;
     font-size: 70px;
     padding-bottom: 60px;
-    color: white;
+    color: #557fff;
     margin-left: 20vh;
+    filter: drop-shadow(3px 3px 3px #6355ff);
 }
 
 .indent {
     padding-bottom: 40px;
     font-size: 30px;
     margin-left: 20vh;
+    filter: drop-shadow(3px 3px 3px #6355ff);
+    color: #557fff;
 }
 
 @media (max-width: 425px) {
@@ -202,8 +210,9 @@ footer,
         padding-top: 17vh;
         font-size: 40px;
         padding-bottom: 60px;
-        color: white;
+        color: #557fff;
         margin-left: 0vh;
+        filter: drop-shadow(3px 3px 3px #6355ff);
     }
     .indent {
         padding-bottom: 40px;
